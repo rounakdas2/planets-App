@@ -1,9 +1,9 @@
 // Write your code here
 import './index.css'
 
-const PlaneItem = props => {
-  const {planeDetails} = props
-  const {name, imageUrl, description} = planeDetails
+const PlanetItem = props => {
+  const {planetDetails} = props
+  const {name, imageUrl, description} = planetDetails
 
   return (
     <div className="planet-container">
